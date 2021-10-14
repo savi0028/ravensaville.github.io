@@ -1,0 +1,25 @@
+/* CSS File for week  6 Class */
+
+body {
+    background-color: aqua;
+    font-size: 22px;
+}
+/* use a class to target and element with a . */
+.sizing {
+    font-size: 10px;
+    border: 5px solid purple;
+    width:50%
+
+}
+
+.using-rem{
+    /* REM is based off default text size (ussually 16px)*/
+    font-size: 2rem;
+}
+html{
+    font-size: 22px;
+}
+.using-em{
+    /* EM is based off the font soze of the elements parent */
+    font-size: 2em;
+}
