@@ -69,6 +69,7 @@ body {
 }
 html{
     font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .using-em{
     /* EM is based off the font soze of the elements parent */
@@ -84,6 +85,14 @@ html{
 .using-percent{
     /* percent responds to an elements parent */
     background-color: royalblue;
-    width: 50%;
-    height: 100px;
+    width: 80%;
+    height: 80px;
+
+    /* CSS Typography Options */
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: .1em;
+    text-decoration: none;
 }
